@@ -5,6 +5,6 @@
 #  - python=3.8.*
 #  - snowflake-snowpark-python=
 #  - streamlit=1.31.1
-snowflake-connector-pyhton
-snowflake-snowpark-python
+snowflake-connector-pyhton==3.10.1
+snowflake-snowpark-python==1.17.0
 streamlit==1.31.1
