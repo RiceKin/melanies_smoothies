@@ -34,3 +34,6 @@ if ingredients_list and name_on_order:
         st.success('Your Smoothies is ordered,'+name_on_order+':'+ingredients_string+'!' ,icon="✅")
         my_insert_stmt = ''
         #st.multiselect = []
+import requests
+fruityvice_response = requests.get("https://fruityvice.com/api/fruit/watermelon")
+st.text(fruityvice_response)
