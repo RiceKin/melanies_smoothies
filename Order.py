@@ -36,4 +36,5 @@ if ingredients_list and name_on_order:
         #st.multiselect = []
 import requests
 fruityvice_response = requests.get("https://fruityvice.com/api/fruit/watermelon")
-st.text(fruityvice_response)
+#st.text(fruityvice_response)
+st.text(fruityvice_response.jason())
